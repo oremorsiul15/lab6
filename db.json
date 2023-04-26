@@ -1,0 +1,926 @@
+[
+    {
+        "question": "A _____ is used on UNIX systems at the beginning of some files to roughly indicate the type of the file.",
+        "ans": "magic number"
+    },
+    {
+        "question": "A(n) ____ file is a series of code sections that the loader can bring into memory and execute.",
+        "ans": "executable"
+    },
+    {
+        "question": "Suppose that the operating system uses two internal tables to keep track of open files. Process A has two files open and process B has three files open. Two files are shared between the two processes. How many entries are in the per-process table of process A, the per-process table of process B, and the system-wide tables, respectively?",
+        "ans": "2,3,3"
+    },
+    {
+        "question": "An acyclic-graph directory structure ____.",
+        "ans": "allows the sharing of subdirectories and files."
+    },
+    {
+        "question": "app.exe is an example of a(n) _____.",
+        "ans": "executable file"
+    },
+    {
+        "question": "The UNIX file system uses which of the following consistency semantics?",
+        "ans": "Writes to an open file by a user are visible immediately to other users that have the file open at the same time."
+    },
+    {
+        "question": "A file on a Solaris system with permissions -rwx--x--x+ is an example of both access-control lists as well as owner/group/universe protection.",
+        "ans": "True"
+    },
+    {
+        "question": "As a general rule, UNIX systems employ mandatory locks.",
+        "ans": "False"
+    },
+    {
+        "question": "The most common approach to file protection is to make access dependent upon the identity of the user.",
+        "ans": "True"
+    },
+    {
+        "question": "The simplest file access method is ____.",
+        "ans": "sequential access"
+    },
+    {
+        "question": "______ is a secure, distributed naming mechanism.",
+        "ans": "Lightweight directory-access protocol (LDAP)"
+    },
+    {
+        "question": "Which of the following is true of the tree-structured directory structure?",
+        "ans": "It is the most common directory structure."
+    },
+    {
+        "question": "A mount point is _____.",
+        "ans": "the location within the file structure where the file system is to be attached."
+    },
+    {
+        "question": "In an environment where several processes may open the same file at the same time, ____.",
+        "ans": "the operating system typically uses two internal tables called the system-wide and per-process tables to keep track of open files"
+    },
+    {
+        "question": "Typically, a mount point is an empty directory.",
+        "ans": "True"
+    },
+    {
+        "question": "All files in a single-level directory must have unique names.",
+        "ans": "True"
+    },
+    {
+        "question": "A(n) ____ file is a sequence of subroutines and functions.",
+        "ans": "source"
+    },
+    {
+        "question": "A shared lock ____.",
+        "ans": "behaves like a reader lock"
+    },
+    {
+        "question": "An exclusive lock ____.",
+        "ans": "behaves like a writer lock"
+    },
+    {
+        "question": "A(n) ____ file is a sequence of bytes organized into blocks understandable by the system's linker.",
+        "ans": "object"
+    },
+    {
+        "question": "On a UNIX system, writes to an open file are not immediately visible to other users who also have the same file open.",
+        "ans": "False"
+    },
+    {
+        "question": "A relative path name begins at the root.",
+        "ans": "False"
+    },
+    {
+        "question": "Windows systems employ mandatory locking.",
+        "ans": "True"
+    },
+    {
+        "question": "Which of the following is true of the direct-access method?",
+        "ans": "It allows programs to read and write records in no particular order."
+    },
+    {
+        "question": "The path name /home/people/os-student/chap10.txt is an example of",
+        "ans": "an absolute path name"
+    },
+    {
+        "question": "Which of the following is not considered a classification of users in connection with each file?",
+        "ans": "current user"
+    },
+    {
+        "question": "________ is/are not considered a difficulty when considering file sharing.",
+        "ans": "Reliability"
+    },
+
+    {
+        "question": "1. A(n) ____ file is a sequence of functions. A) text B) source C) object D) executable",
+        "ans": "SOURCE   A source file is a sequence of functions."
+    },
+    {
+        "question": "2. A(n) ____ file is a sequence of bytes organized into blocks understandable by the system's linker. A) text B) source C) object D) executable",
+        "ans": "OBJECT  An object file is a sequence of bytes organized into blocks understandable by the system's linker."
+    },
+    {
+        "question": "3. A(n) ____ file is a series of code sections that the loader can bring into memory and execute. A) text B) source C) object D) executable",
+        "ans": "EXECUTABLE  An executable file is a series of code sections that the loader can bring into memory and execute."
+    },
+    {
+        "question": "4. In an environment where several processes may open the same file at the same time, ____.  A) the operating system typically uses only one internal table to keep track of open files B) the operating system typically uses two internal tables called the system-wide and per-disk tables to keep track of open files C) the operating system typically uses three internal tables called the system-wide, per-disk, and per-partition tables to keep track of open files D) the operating system typically uses two internal tables called the system-wide and per-process tables to keep track of open files",
+        "ans": "D  The operating system typically uses two internal tables called the system-wide and per-process tables to keep track of open files."
+    },
+    {
+        "question": "6. A shared lock ____.  A) behaves like a writer lock B) ensures that a file can have only a single concurrent shared lock C) behaves like a reader lock D) will prevent all other processes from accessing the locked file",
+        "ans": "C  A shared lock behaves like a reader lock."
+    },
+    {
+        "question": "7. An exclusive lock ____.  A) behaves like a writer lock B) ensures that a file can have only a single concurrent shared lock C) behaves like a reader lock D) will prevent all other processes from accessing the locked file",
+        "ans": "A  An exclusive lock behaves like a writer lock."
+    },
+    {
+        "question": "8. The simplest file access method is ____. A) sequential access B) logical access C) relative access D) direct access",
+        "ans": "A  The simplest file access method is sequential acesss."
+    },
+
+    {
+        "question": "A(n) ____ file is a sequence of functions",
+        "ans": "source"
+    },
+    {
+        "question": "A(n) ____ file is a sequence of bytes organized into blocks understandable by the system's linker.",
+        "ans": "source"
+    },
+    {
+        "question": "A(n) ____ file is a series of code sections that the loader can bring into memory and execute.",
+        "ans": "executable"
+    },
+    {
+        "question": "In an environment where several processes may open the same file at the same time, ____.",
+        "ans": "the operating system typically uses two internal tables called the system-wide and per-process tables to keep track of open files"
+    },
+    {
+        "question": "Suppose that the operating system uses two internal tables to keep track of open files. Process A has two files open and process B has three files open. Two files are shared between the two processes. How many entries are in the per-process table of process A, the per-process table of process B, and the system-wide tables, respectively?",
+        "ans": "2, 3, 3"
+    },
+    {
+        "question": "A shared lock ____.",
+        "ans": "behaves like a reader lock"
+    },
+    {
+        "question": "An exclusive lock ____.",
+        "ans": "behaves like a writer lock"
+    },
+    {
+        "question": "The simplest file access method is ____.",
+        "ans": "sequential access"
+    },
+    {
+        "question": "A _____ is used on UNIX systems at the beginning of some files to roughly indicate the type of the file.",
+        "ans": "magic number"
+    },
+    {
+        "question": "Which of the following is true of the direct-access method?",
+        "ans": "It allows programs to read and write records in no particular order."
+    },
+    {
+        "question": "Which of the following is true of the tree-structured directory structure?",
+        "ans": "It is the most common directory structure."
+    },
+    {
+        "question": "An acyclic-graph directory structure ____.",
+        "ans": "allows the sharing of subdirectories and files."
+    },
+    {
+        "question": "The path name /home/people/os-student/chap11.txt is an example of",
+        "ans": "an absolute path name"
+    },
+    {
+        "question": "The UNIX file system uses which of the following consistency semantics?",
+        "ans": "Writes to an open file by a user are visible immediately to other users that have the file open at the same time."
+    },
+    {
+        "question": "Which of the following is a key property of an immutable file?",
+        "ans": "The file name may not be reused."
+    },
+    {
+        "question": "Which of the following is not considered a classification of users in connection with each file?",
+        "ans": "current user"
+    },
+    {
+        "question": "______ is a secure, distributed naming mechanism.",
+        "ans": "Lightweight directory-access protocol (LDAP)"
+    },
+    {
+        "question": "app.exe is an example of a(n) _____.",
+        "ans": "executable file"
+    },
+    {
+        "question": "A mount point is _____.",
+        "ans": "the location within the file structure where the file system is to be attached."
+    },
+    {
+        "question": "________ is/are not considered a difficulty when considering file sharing.",
+        "ans": "Reliability"
+    },
+    {
+        "question": "Which of the following is not considered a file attribute?",
+        "ans": "Resolution"
+    },
+    {
+        "question": "The path name os-student/src/vm.c is an example of",
+        "ans": "a relative path name"
+    },
+    {
+        "question": "Which of the following statements regarding the client-server model is true?",
+        "ans": "A remote file system may be mounted."
+    },
+
+    {
+        "question": "Assume the value of the base and limit registers are 1200 and 350 respectively. Which of the following addresses is legal? 1551 1200 300 355",
+        "ans": "1200"
+    },
+    {
+        "question": "How is a limit register used for protecting main memory?",
+        "ans": "When the CPU is executing a process, it generates a logical memory address that is added to a relocation register in order to arrive at the physical memory address actually used by main memory. A limit register holds the maximum logical address that the CPU should be able to access. If any logical address is greater than or equal to the value in the limit register, then the logical address is a dangerous address and an error results."
+    },
+    {
+        "question": "Using Figure 8.11, describe how a logical address is translated to a physical address.",
+        "ans": "A logical address is generated by the CPU. This logical address consists of a page number and offset. The TLB is first checked to see if the page number is present. If so, a TLB hit, the corresponding page frame is extracted from the TLB, thus producing the physical address. In the case of a TLB miss, the page table must be searched according to page number for the corresponding page frame. Question 4"
+    },
+    {
+        "question": "Assume a system has a TLB hit ratio of 90%. It requires 15 nanoseconds to access the TLB, and 85 nanoseconds to access main memory. What is the effective memory access time in nanoseconds for this system?",
+        "ans": "108.5"
+    },
+    {
+        "question": "There is a 1:1 correspondence between the number of entries in the TLB and the number of entries in the page table. T/F",
+        "ans": "False"
+    },
+    {
+        "question": "Reentrant code cannot be shared.",
+        "ans": "False"
+    },
+    {
+        "question": "Consider a 32-bit address for a two-level paging system with an 8 KB page size. The outer page table has 1024 entries. How many bits are used to represent the second-level page table?",
+        "ans": "9"
+    },
+    {
+        "question": "Describe the elements of a hashed page table.",
+        "ans": "hashed page table contains hash values which correspond to a virtual page number. Each entry in the hash table contains a linked list of elements that hash to the same location (to handle collisions). Each element consists of three fields: (1) the virtual page number, (2) the value of the mapped page frame, and (3) a pointer to the next element in the linked list."
+    },
+    {
+        "question": "Briefly describe the segmentation memory management scheme. How does it differ from the paging memory management scheme in terms of the user's view of memory?",
+        "ans": "Segmentation views a logical address as a collection of segments. Each segment has a name and length. The addresses specify both the segment name and the offset within the segment. The user therefore specifies each address by two quantities: a segment name and an offset. In contrast, in a paging scheme, the user specifies a single address, which is partitioned by the hardware into a page number and an offset, all invisible to the programmer."
+    },
+    {
+        "question": "With segmentation, a logical address consists of _____.",
+        "ans": "segment number and offset"
+    },
+    {
+        "question": "Absolute code can be generated for ____.",
+        "ans": "Compile-time binding"
+    },
+    {
+        "question": "_____ is the method of binding instructions and data to memory performed by most general-purpose operating systems.",
+        "ans": "Execution time binding"
+    },
+    {
+        "question": "An address generated by a CPU is referred to as a _____",
+        "ans": "logical address"
+    },
+    {
+        "question": "Suppose a program is operating with execution-time binding and the physical address generated is 300. The relocation register is set to 100. What is the corresponding logical address?",
+        "ans": "200"
+    },
+    {
+        "question": "The mapping of a logical address to a physical address is done in hardware by the ______.",
+        "ans": "memory-management unit"
+    },
+    {
+        "question": "In a dynamically linked library _____.",
+        "ans": "a stub is included in the image for each library-routine reference"
+    },
+    {
+        "question": "The ____ binding scheme facilitates swapping.",
+        "ans": "execution time"
+    },
+    {
+        "question": "The roll out, roll in variant of swapping is used ____.",
+        "ans": "for priority-based scheduling algorithms"
+    },
+    {
+        "question": "____ is the dynamic storage-allocation algorithm which results in the smallest leftover hole in memory.",
+        "ans": "best fit"
+    },
+    {
+        "question": "_____ is the dynamic storage-allocation algorithm which results in the larges leftover hole in memory.",
+        "ans": "worst fit"
+    },
+    {
+        "question": "Which of the following is true of compaction?",
+        "ans": "It is possible only if relocation is dynamic and done at execution time."
+    },
+    {
+        "question": "A(n) ____ page table has one entry for each real page (or frame) of memory.",
+        "ans": "inverted"
+    },
+    {
+        "question": "Consider a logical address with a page size of 8 KB. How many bits must be used to represent the page offset in the logical address?",
+        "ans": "13"
+    },
+    {
+        "question": "Consider a logical address with 18 bits used to represent an entry in a conventional page table. How many entries are in the conventional page table?",
+        "ans": "262144"
+    },
+    {
+        "question": "Assume a system has a TLB hit ratio of 90%. It requires 15 nanoseconds to access the TLB, and 85 nanoseconds to access main memory. What is the effective memory access time in nanoseconds for this system?",
+        "ans": "108.5"
+    },
+    {
+        "question": "Given the logical address 0xAEF9 (in hexadecimal) with a page size of 256 bytes, what is the page number?",
+        "ans": "0xAE"
+    },
+    {
+        "question": "Given the logical address 0xAEF9 (in hexadecimal) with a page size of 256 bytes, what is the page offset?",
+        "ans": "0xF9"
+    },
+    {
+        "question": "Consider a 32-bit address for a two-level paging system with an 8 KB page size. The outer page table has 1024 entries. How many bits are used to represent the second-level page table?",
+        "ans": "9"
+    },
+    {
+        "question": "With segmentation, a logical address consists of _____",
+        "ans": "segment number and offset"
+    },
+    {
+        "question": "Which of the following data structures is appropriate for placing into its own segment?",
+        "ans": "heap, kernel code and data, user code and data"
+    },
+    {
+        "question": "Assume the value of the base and limit registers are 1200 and 350 respectively. Which of the following addresses is legal?",
+        "ans": "1200"
+    },
+    {
+        "question": "A(n) ____ matches the process with each entry in the TLB.",
+        "ans": "address-space identifier"
+    },
+    {
+        "question": "Which of the following statements are true with respect to hashed page tables?",
+        "ans": "A common approach for handling address space larger than 32 bits"
+    },
+    {
+        "question": "Which of the following statements regarding the ARM architecture are false?",
+        "ans": "The micro TLB must be flushed at each context switch."
+    },
+    {
+        "question": "Which of the following is not a reason explaining why mobile devices generally do not support swapping?",
+        "ans": "Small size of mobile applications do not require use of swap space."
+    },
+    {
+        "question": "A relocation register is used to check for invalid memory addresses generated by a CPU.",
+        "ans": "false"
+    },
+    {
+        "question": "Reentrant code cannot be shared.",
+        "ans": "False"
+    },
+    {
+        "question": "There is a 1:1 correspondence between the number of entries in the TLB and the number of entries in the page table.",
+        "ans": "False"
+    },
+    {
+        "question": "Hierarchical page tables are appropriate for 64-bit architectures.",
+        "ans": "False"
+    },
+    {
+        "question": "The ARM architecture uses both single-level and two-level paging.",
+        "ans": "True"
+    },
+    {
+        "question": "Fragmentation does not occur in a paging system.",
+        "ans": "False"
+    },
+    {
+        "question": "Hashed page tables are particularly useful for processes with sparse address spaces.",
+        "ans": "True"
+    },
+    {
+        "question": "Inverted page tables require each process to have its own page table.",
+        "ans": "False"
+    },
+    {
+        "question": "Without a mechanism such as an address-space identifier, the TLB must be flushed during a context switch.",
+        "ans": "True"
+    },
+    {
+        "question": "A 32-bit logical address with 8 KB page size will have 1,000,000 entries in a conventional page table.",
+        "ans": "False"
+    },
+    {
+        "question": "Hashed page tables are commonly used when handling addresses larger than 32 bits.",
+        "ans": "True"
+    },
+    {
+        "question": "The x86-64 bit architecture only uses 48 of the 64 possible bits for representing virtual address space.",
+        "ans": "True"
+    },
+    {
+        "question": "Mobile operating systems typically support swapping.",
+        "ans": "False"
+    },
+    {
+        "question": "Belady's anomaly states that ______.  A. giving more memory to a process will improve its performance B. as the number of allocated frames increases, the page-fault rate may decrease for all page replacement algorithms. C. for some page replacement algorithms, the page-fault rate may decrease as the number of allocated frames increases D. for some page replacement algorithms, the page-fault rate may increase as the number of allocated frames increases",
+        "ans": "D. for some page replacement algorithms, the page-fault rate may increase as the number of allocated frames increases"
+    },
+    {
+        "question": "2. Optimal page replacement ______.  A. is the page-replacement algorithm most often implemented B. is used mostly for comparison with other page-replacement schemes C. can suffer from Belady's anomaly D. requires that the system keep track of previously used pages",
+        "ans": "B. is used mostly for comparison with other page-replacement schemes"
+    },
+    {
+        "question": "In the enhanced second chance algorithm, which of the following ordered pair represents a page that would be the best choice for replacement?  A. (0,0) B. (0,1) C. (1,0) D. (1,1)",
+        "ans": "A. (0,0)"
+    },
+    {
+        "question": "The ______ allocation algorithm allocates available memory to each process according to its size.  A. equal B. global C. proportional D. slab",
+        "ans": "C. proportional"
+    },
+    {
+        "question": "_______ allows the parent and child processes to initially share the same pages, but when either process modifies a page, a copy of the shared page is created.  A. copy-on-write B. zero-fill-on-demand C. memory-mapped D. virtual memory fork",
+        "ans": "A. copy-on-write"
+    },
+    {
+        "question": "______ is the algorithm implemented on most systems.  A. FIFO B. Least frequently used C. Most frequently used D. LRU",
+        "ans": "D. LRU"
+    },
+    {
+        "question": "What size segment will be allocated for a 39 KB request on a system using Buddy system for kernel memory allocation?  A. 39 KB B. 42 KB C. 64 KB D. None of the above",
+        "ans": "C. 64 KB"
+    },
+    {
+        "question": "Systems in which memory access times vary significantly are known as ______.  A. memory-mapped I/O B. demand-paged memory C. non-uniform memory-access D. copy-on-write memory",
+        "ans": "C. non-uniform memory access"
+    },
+    {
+        "question": "Thrashing is defined as ________.  A. an activity you do on your skateboard B. when paging activity is nearly idle C. when paging activity is very high and slows down execution times D. a cutting edge algorithm for page replacement",
+        "ans": "C. when paging activity is very high and slows down execution times"
+    },
+    {
+        "question": "Which of the following is considered a benefit when using slab allocator?  A. Memory is allocated using a simple power-of-2 allocator B. It allows kernal code and data to be efficiently paged C. It allows larger segments to be combined using coalescing. D. There is no memory fragmentation",
+        "ans": "D. There is no memory fragmentation"
+    },
+    {
+        "question": "Which of the following is a benefit of allowing a program that is only partially in memory to execute?  A. Programs can be written to use more memory than is available in physical memory B. CPU utilization and throughput are increased C. Less I/O is needed to load or swap each user program into memory D. All of the above",
+        "ans": "D. All of the above"
+    },
+    {
+        "question": "The vfork() system call in UNIX() ______.  A. allows the child process to use the address space of the request. B. uses copy-on-write with the fork() call C. is not intended to be used when the child process calls exec() immediately after creation D. duplicates all pages that are modified by the child processes",
+        "ans": "A. allows the child process to use the address space of the request."
+    },
+    {
+        "question": "In a pure demand paging scheme means the following:  A. all pages required by a process are loaded initially and then removed as they are no longer needed B. half the pages required by a process are loaded initially and then paged in and out as needed. C. start executing a process with no pages in memory and pages are brought into memory as needed. D. only priority pages are loaded initially and then others are brought in as needed.",
+        "ans": "C. start executing a process with no pages in memory and pages are brought into memory as needed."
+    },
+    {
+        "question": "Suppose we have the following page accesses: 1 2 3 4 2 3 4 1 2 1 1 3 1 4 and that there are three frames within our system. Using the FIFO replacement algorithm, what will be the final configuration of the three frames following the execution of the given reference string?  A. 4, 1, 3 B. 3, 1, 4 C. 4, 2, 3 D. 3, 4, 2",
+        "ans": "D. 3, 4, 2"
+    },
+    {
+        "question": "Compute the following binary arithmetic value.  2^5 = ______",
+        "ans": "32"
+    },
+    {
+        "question": "Compute the following binary arithmetic value.  2^7 = ______",
+        "ans": "128"
+    },
+    {
+        "question": "Compute the following binary arithmetic value.  2^10 = ______",
+        "ans": "1024 or 1KB"
+    },
+    {
+        "question": "Compute the following binary arithmetic value.  2^12 = ______",
+        "ans": "4KB or 4096"
+    },
+    {
+        "question": "Compute the following binary arithmetic value.  2^18 = ______",
+        "ans": "256 KB"
+    },
+    {
+        "question": "Compute the following binary arithmetic value.  (2^5)(2^5) = ______",
+        "ans": "1024 or 1KB"
+    },
+    {
+        "question": "Compute the following binary arithmetic value.  (2^10)(2^5) = ______",
+        "ans": "32 KB"
+    },
+    {
+        "question": "Compute the following binary arithmetic value.  (2^10)(2^10)(2^12) = ______",
+        "ans": "4 GB"
+    },
+    {
+        "question": "1. Which of the following is a benefit of allowing a program that is only partially in memory to execute? A) Programs can be written to use more memory than is available in physical memory. B) CPU utilization and throughput is increased. C) Less I/O is needed to load or swap each user program into memory. D) All of the above",
+        "ans": "D) All of the above"
+    },
+    {
+        "question": "2. In systems that support virtual memory, ____. A) virtual memory is separated from logical memory. B) virtual memory is separated from physical memory. C) physical memory is separated from secondary storage. D) physical memory is separated from logical memory.",
+        "ans": "D) physical memory is separated from logical memory."
+    },
+    {
+        "question": "3. The vfork() system call in UNIX ____. A) allows the child process to use the address space of the parent B) uses copy-on-write with the fork() call C) is not intended to be used when the child process calls exec() immediately after creation D) duplicates all pages that are modified by the child process",
+        "ans": "A) allows the child process to use the address space of the parent"
+    },
+    {
+        "question": "4. Suppose we have the following page accesses: 1 2 3 4 2 3 4 1 2 1 1 3 1 4 and that there are three frames within our system. Using the FIFO replacement algorithm, what is the number of page faults for the given reference string? A) 14 B) 8 C) 13 D) 10",
+        "ans": "B) 8"
+    },
+    {
+        "question": "5. Suppose we have the following page accesses: 1 2 3 4 2 3 4 1 2 1 1 3 1 4 and that there are three frames within our system. Using the FIFO replacement algorithm, what will be the final configuration of the three frames following the execution of the given reference string? A) 4, 1, 3 B) 3, 1, 4 C) 4, 2, 3 D) 3, 4, 2",
+        "ans": "D) 3, 4, 2"
+    },
+    {
+        "question": "6. Suppose we have the following page accesses: 1 2 3 4 2 3 4 1 2 1 1 3 1 4 and that there are three frames within our system. Using the LRU replacement algorithm, what is the number of page faults for the given reference string? A) 14 B) 13 C) 8 D) 10",
+        "ans": "C) 8"
+    },
+    {
+        "question": "7. Given the reference string of page accesses: 1 2 3 4 2 3 4 1 2 1 1 3 1 4 and a system with three page frames, what is the final configuration of the three frames after the LRU algorithm is applied? A) 1, 3, 4 B) 3, 1, 4 C) 4, 1, 2 D) 1, 2, 3",
+        "ans": "B) 3, 1, 4"
+    },
+    {
+        "question": "8. Belady's anomaly states that ____. A) giving more memory to a process will improve its performance B) as the number of allocated frames increases, the page-fault rate may decrease for all page replacement algorithms C) for some page replacement algorithms, the page-fault rate may decrease as the number of allocated frames increases D) for some page replacement algorithms, the page-fault rate may increase as the number of allocated frames increases",
+        "ans": "D) for some page replacement algorithms, the page-fault rate may increase as the number of allocated frames increases"
+    },
+    {
+        "question": "9. Optimal page replacement ____. A) is the page-replacement algorithm most often implemented B) is used mostly for comparison with other page-replacement schemes C) can suffer from Belady's anomaly D) requires that the system keep track of previously used pages",
+        "ans": "B) is used mostly for comparison with other page-replacement schemes"
+    },
+    {
+        "question": "10. In the enhanced second chance algorithm, which of the following ordered pairs represents a page that would be the best choice for replacement? A) (0,0) B) (0,1) C) (1,0) D) (1,1)",
+        "ans": "A) (0,0)"
+    },
+    {
+        "question": "11. The _____ allocation algorithm allocates available memory to each process according to its size. A) equal B) global C) proportional D) slab",
+        "ans": "C) proportional"
+    },
+    {
+        "question": "12. The ____ is the number of entries in the TLB multiplied by the page size. A) TLB cache B) page resolution C) TLB reach D) hit ratio",
+        "ans": "C) TLB reach"
+    },
+    {
+        "question": "13. ________ allows the parent and child processes to initially share the same pages, but when either process modifies a page, a copy of the shared page is created. A) copy-on-write B) zero-fill-on-demand C) memory-mapped D) virtual memory fork",
+        "ans": "A) copy-on-write"
+    },
+    {
+        "question": "14. _____ is the algorithm implemented on most systems. A) FIFO B) Least frequently used C) Most frequently used D) LRU",
+        "ans": "D) LRU"
+    },
+    {
+        "question": "15. _____ occurs when a process spends more time paging than executing. A) Thrashing B) Memory-mapping C) Demand paging D) Swapping",
+        "ans": "A) Thrashing"
+    },
+    {
+        "question": "16. Windows uses a local page replacement policy _____. A) when a process exceeds its working set minimum B) when a process exceeds its working set maximum C) when the system undergoes automatic working set trimming D) under all circumstances",
+        "ans": "B) when a process exceeds its working set maximum"
+    },
+    {
+        "question": "17. Which of the following statements is false with regard to Solaris memory management? A) The speed at which pages are examined (the scanrate) is constant. B) The pageout process only runs if the number of free pages is less than lotsfree. C) An LRU approximation algorithm is employed. D) Pages selected for replacement may be reclaimed before being placed on the free list.",
+        "ans": "A) The speed at which pages are examined (the scanrate) is constant."
+    },
+    {
+        "question": "18. What size segment will be allocated for a 39 KB request on a system using the Buddy system for kernel memory allocation? A) 39 KB B) 42 KB C) 64 KB D) None of the above",
+        "ans": "C) 64 KB"
+    },
+    {
+        "question": "19. Which of the following statements is false with regard to allocating kernel memory? A) Slab allocation does not suffer from fragmentation. B) Adjacent segments can be combined into one larger segment with the buddy system. C) Because the kernel requests memory of varying sizes, some of which may be quite small, the system does not have to be concerned about wasting memory. D) The slab allocator allows memory requests to be satisfied very quickly.",
+        "ans": "C) Because the kernel requests memory of varying sizes, some of which may be quite small, the system does not have to be concerned about wasting memory."
+    },
+    {
+        "question": "20. The _____ is an approximation of a program's locality. A) locality model B) working set C) page fault frequency D) page replacement algorithm",
+        "ans": "B) working set"
+    },
+    {
+        "question": "21. ______ allows a portion of a virtual address space to be logically associated with a file. A) Memory-mapping B) Shared memory C) Slab allocation D) Locality of reference",
+        "ans": "A) Memory-mapping"
+    },
+    {
+        "question": "22. Systems in which memory access times vary significantly are known as __________. A) memory-mapped I/O B) demand-paged memory C) non-uniform memory access D) copy-on-write memory",
+        "ans": "C) non-uniform memory access"
+    },
+    {
+        "question": "23. Which of the following is considered a benefit when using the slab allocator? A) Memory is allocated using a simple power-of-2 allocator. B) It allows kernel code and data to be efficiently paged. C) It allows larger segments to be combined using coalescing. D) There is no memory fragmentation.",
+        "ans": "D) There is no memory fragmentation."
+    },
+    {
+        "question": "The _____ allocation algorithm allocates available memory to each process according to its size. 1. proportional 2. global 3. slab 4. equal",
+        "ans": "1"
+    },
+    {
+        "question": "Belady's anomaly states that ____. 1. giving more memory to a process will improve its performance 2. for some page replacement algorithms, the page-fault rate may increase as the number of allocated frames increases 3. as the number of allocated frames increases, the page-fault rate may decrease for all page replacement algorithms 4. for some page replacement algorithms, the page-fault rate may decrease as the number of allocated frames increases",
+        "ans": "2"
+    },
+    {
+        "question": "_____ occurs when a process spends more time paging than executing. 1. Demand paging 2. Memory-mapping 3. Thrashing 4. Swapping",
+        "ans": "3"
+    },
+    {
+        "question": "______ allows a portion of a virtual address space to be logically associated with a file. 1. Shared memory 2. Memory-mapping 3. Slab allocation 4. Locality of reference",
+        "ans": "2"
+    },
+    {
+        "question": "Windows uses a local page replacement policy _____. 1. when the system undergoes automatic working set trimming 2. under all circumstances 3. when a process exceeds its working set maximum 4. when a process exceeds its working set minimum",
+        "ans": "3"
+    },
+    {
+        "question": "The vfork() system call in UNIX ____. 1. is not intended to be used when the child process calls exec() immediately after creation 2. allows the child process to use the address space of the parent 3. duplicates all pages that are modified by the child process 4. uses copy-on-write with the fork() call",
+        "ans": "2"
+    },
+    {
+        "question": "Which of the following statements is false with regard to allocating kernel memory? 1. Because the kernel requests memory of varying sizes, some of which may be quite small, the system does not have to be concerned about wasting memory. 2. Slab allocation does not suffer from fragmentation. 3. Adjacent segments can be combined into one larger segment with the buddy system. 4. The slab allocator allows memory requests to be satisfied very quickly",
+        "ans": "1"
+    },
+    {
+        "question": "The ____ is the number of entries in the TLB multiplied by the page size. 1. page resolution 2. TLB cache 3. TLB reach 4. hit ratio",
+        "ans": "3"
+    },
+    {
+        "question": "Optimal page replacement ____. 1. can suffer from Belady's anomaly 2. is used mostly for comparison with other page-replacement schemes 3. is the page-replacement algorithm most often implemented 4. requires that the system keep track of previously used pages",
+        "ans": "2"
+    },
+    {
+        "question": "Which of the following is a benefit of allowing a program that is only partially in memory to execute? 1. All of the above 2. Less I/O is needed to load or swap each user program into memory. 3. Programs can be written to use more memory than is available in physical memory. 4. CPU utilization and throughput is increased.",
+        "ans": "1"
+    },
+    {
+        "question": "logical view of how process is stored in memory, Usually start at address 0, contiguous addresses until end of space.",
+        "ans": "virtual address space"
+    },
+    {
+        "question": "Could bring entire process into memory at load time or bring a page into memory only when it is needed",
+        "ans": "demand paging"
+    },
+    {
+        "question": "never swaps a page into memory unless page will be needed",
+        "ans": "lazy swapper"
+    },
+    {
+        "question": "A _____ occurs when a reference to a page that is not in main memory is made",
+        "ans": "page fault"
+    },
+    {
+        "question": "allows both parent and child processes to initially share the same pages in memory",
+        "ans": "copy-on-write"
+    },
+    {
+        "question": "determines how many frames to give each process",
+        "ans": "Frame-allocation algorithm"
+    },
+    {
+        "question": "determines which frames to replace",
+        "ans": "Page-replacement algorithm"
+    },
+    {
+        "question": "replace oldest frame in memory",
+        "ans": "FIFO"
+    },
+    {
+        "question": "Replace page that will not be used for longest period of time",
+        "ans": "optimal page replacement"
+    },
+    {
+        "question": "Replace page that has not been used in the most amount of time",
+        "ans": "LRU"
+    },
+    {
+        "question": "Effective access formula m = memory access a = hit ratio e = TLB search",
+        "ans": "(m+e)a+(2m+e)(1-a)"
+    },
+    {
+        "question": "On a UNIX system, writes to an open file are not immediately visible to other users who also have the same file open.",
+        "ans": "False"
+    },
+    {
+        "question": "A relative path name begins at the root.",
+        "ans": "False"
+    },
+    {
+        "question": "All files in a single-level directory must have unique names.",
+        "ans": "True"
+    },
+    {
+        "question": "Windows systems employ mandatory locking.",
+        "ans": "True"
+    },
+    {
+        "question": "________ is/are not considered a difficulty when considering file sharing.",
+        "ans": "Reliability"
+    },
+    {
+        "question": "The UNIX file system uses which of the following consistency semantics?",
+        "ans": "Writes to an open file by a user are visible immediately to other users that have the file open at the same time."
+    },
+    {
+        "question": "A(n) ____ file is a series of code sections that the loader can bring into memory and execute.",
+        "ans": "executable"
+    },
+    {
+        "question": "A shared lock ____.",
+        "ans": "behaves like a reader lock"
+    },
+    {
+        "question": "Which of the following is not considered a classification of users in connection with each file?",
+        "ans": "current user"
+    },
+    {
+        "question": "______ is a secure, distributed naming mechanism.",
+        "ans": "Lightweight directory-access protocol (LDAP)"
+    },
+    {
+        "question": "As a general rule, UNIX systems employ mandatory locks.",
+        "ans": "False"
+    },
+    {
+        "question": "A file on a Solaris system with permissions -rwx--x--x+ is an example of both access-control lists as well as owner/group/universe protection.",
+        "ans": "True"
+    },
+    {
+        "question": "A(n) ____ file is a sequence of bytes organized into blocks understandable by the system's linker.",
+        "ans": "object"
+    },
+    {
+        "question": "The simplest file access method is ____.",
+        "ans": "sequential access"
+    },
+    {
+        "question": "An acyclic-graph directory structure ____.",
+        "ans": "allows the sharing of subdirectories and files."
+    },
+    {
+        "question": "The most common approach to file protection is to make access dependent upon the identity of the user.",
+        "ans": "True"
+    },
+    {
+        "question": "Which of the following is a key property of an immutable file?",
+        "ans": "The file name may not be reused.~"
+    },
+    {
+        "question": "A _____ is used on UNIX systems at the beginning of some files to roughly indicate the type of the file.",
+        "ans": "magic number"
+    },
+    {
+        "question": "Which of the following is true of the direct-access method?",
+        "ans": "It allows programs to read and write records in no particular order."
+    },
+    {
+        "question": "Suppose that the operating system uses two internal tables to keep track of open files. Process A has two files open and process B has three files open. Two files are shared between the two processes. How many entries are in the per-process table of process A, the per-process table of process B, and the system-wide tables, respectively?",
+        "ans": "2,3,3"
+    },
+    {
+        "question": "The path name /home/people/os-student/chap10.txt is an example of",
+        "ans": "an absolute path name"
+    },
+    {
+        "question": "An exclusive lock ____.",
+        "ans": "behaves like a writer lock"
+    },
+    {
+        "question": "Typically, a mount point is an empty directory.",
+        "ans": "True"
+    },
+    {
+        "question": "An absolute path name must always begin at the root.",
+        "ans": "True"
+    },
+    {
+        "question": "A(n) ____ file is a sequence of subroutines and functions.",
+        "ans": "source"
+    },
+    {
+        "question": "A(n) ____ file is a sequence of functions. A) text B) source C) object D) executable",
+        "ans": "B) source"
+    },
+    {
+        "question": "A(n) ____ file is a sequence of bytes organized into blocks understandable by the system's linker. A) text B) source C) object D) executable",
+        "ans": "C) object"
+    },
+    {
+        "question": "A(n) ____ file is a series of code sections that the loader can bring into memory and execute. A) text B) source C) object D) executable",
+        "ans": "D) executable"
+    },
+    {
+        "question": "In an environment where several processes may open the same file at the same time, ____. A) the operating system typically uses only one internal table to keep track of open files B) the operating system typically uses two internal tables called the system-wide and per-disk tables to keep track of open files C) the operating system typically uses three internal tables called the system-wide, per-disk, and per-partition tables to keep track of open files D) the operating system typically uses two internal tables called the system-wide and per-process tables to keep track of open files",
+        "ans": "D) the operating system typically uses two internal tables called the system-wide and per-process tables to keep track of open files"
+    },
+    {
+        "question": "Suppose that the operating system uses two internal tables to keep track of open files. Process A has two files open and process B has three files open. Two files are shared between the two processes. How many entries are in the per-process table of process A, the per-process table of process B, and the system-wide tables, respectively? A) 5, 5, 5 B) 2, 3, 3 C) 2, 3, 5 D) 2, 3, 1",
+        "ans": "B) 2, 3, 3"
+    },
+    {
+        "question": "A shared lock ____. A) behaves like a writer lock B) ensures that a file can have only a single concurrent shared lock C) behaves like a reader lock D) will prevent all other processes from accessing the locked file",
+        "ans": "C) behaves like a reader lock"
+    },
+    {
+        "question": "An exclusive lock ____. A) behaves like a writer lock B) ensures that a file can have only a single concurrent shared lock C) behaves like a reader lock D) will prevent all other processes from accessing the locked file",
+        "ans": "A) behaves like a writer lock"
+    },
+    {
+        "question": "The simplest file access method is ____. A) sequential access B) logical access C) relative access D) direct access",
+        "ans": "A) sequential access"
+    },
+    {
+        "question": "Which of the following is true of the direct-access method? A) It is the most common mode of access. B) It allows programs to read and write records in no particular order. C) Files are made up of variable-length records. D) It is not a good method for accessing large amounts of data quickly.",
+        "ans": "B) It allows programs to read and write records in no particular order."
+    },
+    {
+        "question": "Which of the following is true of the tree-structured directory structure? A) Users cannot create their own subdirectories. B) Users cannot acquire permission to access the files of other users. C) Directories can share subdirectories and files. D) It is the most common directory structure.",
+        "ans": "D) It is the most common directory structure."
+    },
+    {
+        "question": "The path name /home/people/os-student/chap11.txt is an example of A) a relative path name B) an absolute path name C) a relative path name to the current directory of /home D) an invalid path name",
+        "ans": "B) an absolute path name"
+    },
+    {
+        "question": "Which of the following is not considered a classification of users in connection with each file? A) owner B) current user C) group D) universe",
+        "ans": "B) current user"
+    },
+    {
+        "question": "app.exe is an example of a(n) _____. A) batch file B) object file C) executable file D) text file",
+        "ans": "C) executable file"
+    },
+    {
+        "question": "________ is/are not considered a difficulty when considering file sharing. A) Reliability B) Multiple users C) Consistency semantics D) Remote access",
+        "ans": "A) Reliability"
+    },
+    {
+        "question": "Which of the following is not considered a file attribute? A) Name B) Size C) Resolution D) Protection",
+        "ans": "C) Resolution"
+    },
+    {
+        "question": "The path name os-student/src/vm.c is an example of A) a relative path name B) an absolute path name C) a relative path name to the current directory of /os-student D) an invalid path name",
+        "ans": "A) a relative path name"
+    },
+    {
+        "question": "Which of the following statements regarding the client-server model is true? A) A remote file system may be mounted. B) The client-server relationship is not very common with networked machines. C) A client may only use a single server. D) The client and server agree on which resources will be made available by servers.",
+        "ans": "A) A remote file system may be mounted."
+    },
+    {
+        "question": "Metadata includes all of the file-system structure, including the actual data (or contents of the file). TRUE FALSE",
+        "ans": "FALSE"
+    },
+    {
+        "question": "In NTFS, the volume control block (per volume) and the directory structure (per file system) is stored in the master file table. TRUE FALSE",
+        "ans": "TRUE"
+    },
+    {
+        "question": "Indexed allocation may require substantial overhead for its index block. TRUE FALSE",
+        "ans": "TRUE"
+    },
+    {
+        "question": "The NFS protocol provides concurrency-control mechanisms. TRUE FALSE",
+        "ans": "FALSE"
+    },
+    {
+        "question": "On log-structured file systems, all metadata and file data updates are written sequentially to a log. TRUE FALSE",
+        "ans": "FALSE"
+    },
+    {
+        "question": "VFS allows dissimilar file systems to be accessed similarly. TRUE FALSE",
+        "ans": "TRUE"
+    },
+    {
+        "question": "Linked allocation suffers from external fragmentation. TRUE FALSE",
+        "ans": "FALSE"
+    },
+    {
+        "question": "The WAFL file system can be used in conjunction with NFS. TRUE FALSE",
+        "ans": "TRUE"
+    },
+    {
+        "question": "On log-structured file systems, a transaction is considered only when it is written to disk. TRUE FALSE",
+        "ans": "FALSE"
+    },
+    {
+        "question": "A unified buffer cache uses the same cache for ordinary disk I/O as well as memory-mapped I/O. TRUE FALSE",
+        "ans": "TRUE"
+    },
+    {
+        "question": "A consistency checker only checks for inconsistencies, it cannot fix any that it may find. TRUE FALSE",
+        "ans": "FALSE"
+    },
+    {
+        "question": "Asynchronous writes to a file system are generally more efficient than synchronous writes. TRUE FALSE",
+        "ans": "TRUE"
+    },
+
+    {
+        "question": "1) Which of the following is the simplest method for implementing a directory?",
+        "ans": "A) tree data structure B) linear list C) hash table D) nonlinear list Ans: B"
+    },
+    {
+        "question": "2) The free-space list can be implemented using a bit vector approach. Which of the following is a drawback of this technique?",
+        "ans": "A) To traverse the list, each block must be read on the disk. B) It is not feasible to keep the entire list in main memory for large disks. C) The technique is more complicated than most other techniques. D) This technique is not feasible for small disks. Ans: B"
+    },
+    {
+        "question": "3) What is the main disadvantage to using a linear list to implement a directory structure? What steps can be taken to compensate for this problem?",
+        "ans": "Ans: Linear lists are slow to search. This slowness would be noticeable to users as directory information is used frequently in computer systems. Many operating systems implement a software cache to store the most recently used directory information. A sorted list may also be used to decrease the average search time due to a binary search."
+    },
+    {
+        "question": "4) How is a hash table superior to a simple linear list structure? What issue must be handled by a hash table implementation?",
+        "ans": "Ans: A hash table implementation uses a linear list to store directory entries. However, a hash data structure is also used in order to speed up the search process. The hash data structure allows the file name to be used to help compute the file's location within the linear list. Collisions, which occur when multiple files map to the same location, must be handled by this implementation."
+    },
+    {
+        "question": "5) (GRADUATE STUDENTS ONLY) Describe the counting approach to free space management.",
+        "ans": "Ans: The counting approach takes advantage of the fact that, generally, several contiguous blocks may be allocated or freed simultaneously. Thus, rather than keeping a list of n free disk addresses, we can keep the address of the first free block and the number n of free contiguous blocks that follow the first block. Each entry in the free-space list then consists of a disk address and a count."
+    }
+]
